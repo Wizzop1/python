@@ -1,0 +1,6 @@
+primer = input("Input a sentence")
+primer2= list(primer.split())
+nCount = primer.count('a')
+print(primer2)
+print("Amount of spaces: ", len(primer2))
+print(nCount)

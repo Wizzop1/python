@@ -14,7 +14,7 @@ for i in range(int(n)):
     if i == 0:
         psum[i] = arr[i]
     elif i>0:
-        psum[i] = psum[i] + int(arr[i+1])
+        psum[i] = psum[i] + arr[i+1]
         if i== int(n)-1:
             psum[i] = psum[i] + arr[i]
     else:
