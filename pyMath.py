@@ -1,0 +1,11 @@
+import math
+x = min(5,10,200)
+y = max(10,-50,20)
+print(x," ",y)
+c = pow(3,2)
+print (c)
+e = math.sqrt(9)
+print (e)
+f = math.ceil(4.5)
+g = math.floor(4.4)
+print(f,g)
