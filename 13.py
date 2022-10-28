@@ -7,4 +7,4 @@ for i in range(len(arr)):
     if arr[i] < 1 and arr[i] > 10^9:
         break
     else:
-        
+        pass

@@ -10,6 +10,8 @@ def math(a,m_op,b):
             print(a*b)
         case '/':
             print(a/b)
+        case '//':
+            print(a//b)
 
 math(input("First number: "),input("Operation: "),input("Second number: "))
 
